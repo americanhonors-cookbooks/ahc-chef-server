@@ -40,6 +40,10 @@ Include the default recipe in your node or role.
 
 ## Development & Testing
 
+**Note:** The EBS volumes that get created and attached to the instance during a test-kitchen EC2 run are _not_
+deleted when test-kitchen cleans up. Until a workaround is found for this, you should make sure to clean up
+the volumes after any test-kitchen EC2 run completes.
+
 ### Rake
 
     $ bundle exec rake -T
