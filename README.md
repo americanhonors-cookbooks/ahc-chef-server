@@ -1,7 +1,7 @@
 # ahc-chef-server Cookbook
 
-[![Build Status](https://travis-ci.org/americanhonors/chef-ahc-chef-server.svg?branch=master)][build-status]
-[![Dependency Status](https://gemnasium.com/americanhonors/chef-ahc-chef-server.svg)][dependency-status]
+[![Build Status](https://travis-ci.org/americanhonors/ahc-chef-server.svg?branch=master)][build-status]
+[![Dependency Status](https://gemnasium.com/americanhonors/ahc-chef-server.svg)][dependency-status]
 
 Wrapper around the [chef-server cookbook][chef-server-cookbook] to install Chef Server on EC2.
 
@@ -110,8 +110,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-[build-status]: https://travis-ci.org/americanhonors/chef-ahc-chef-server
-[dependency-status]: https://gemnasium.com/americanhonors/chef-ahc-chef-server
+[build-status]: https://travis-ci.org/americanhonors/ahc-chef-server
+[dependency-status]: https://gemnasium.com/americanhonors/ahc-chef-server
 [aws-cookbook]: https://github.com/opscode-cookbooks/aws
 [chef-server-cookbook]: https://github.com/opscode-cookbooks/apt
 [opscode-cookbooks]: https://github.com/opscode-cookbooks
